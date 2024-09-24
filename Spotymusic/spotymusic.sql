@@ -30,7 +30,6 @@ sobrenomeCompositor varchar(25)
 create table musica(
 idMusica int primary key auto_increment,
 nomeMusica varchar(50) not null,
-genero varchar(25) not null,
 duracao time not null,
 fk_idAlbum int,
 foreign key (fk_idAlbum) references album (idAlbum) on delete cascade,
