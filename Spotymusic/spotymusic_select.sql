@@ -1,5 +1,5 @@
 select nomeMusica, duracao from musica
-where duracao > '00:04:00'
+where duracao > '00:08:00'
 order by nomeMusica;
 
 select nomeMusica from musica
