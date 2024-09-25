@@ -756,3 +756,13 @@ insert into musica values
 (null, 'Doompy Poomp', '00:04:29', 50, 57),
 (null, 'Dirty Vibe', '00:03:41', 50, 57),
 (null, 'Take Ü There', '00:04:06', 50, 57);
+
+insert into playlist values
+(null, 'Emo é meu estilo de vida'),
+(null, 'Rei do pop'),
+(null, 'Rap Gringo'),
+(null, 'Ouvir naquelas horas'),
+(null, 'Meninas de 15 anos amam'),
+(null, 'Rap Brasileiro'),
+(null, 'Relaxando com Jazz'),
+(null, 'Rock Clássico');
