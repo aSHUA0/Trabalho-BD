@@ -9,7 +9,7 @@ inner join album
 on fk_idAlbum = idAlbum
 where idAlbum = 3;
 
-select nomeMusica, nomeArtista from album
+select nomeArtista, nomeMusica, tituloAlbum from album
 inner join musica
 on fk_idAlbum = idAlbum
 inner join artista
