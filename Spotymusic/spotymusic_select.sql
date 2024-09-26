@@ -2,8 +2,17 @@ select nomeMusica, duracao from musica
 where duracao > '00:08:00'
 order by nomeMusica;
 
-select nomeMusica from musica
-where nomeMusica like 'a%';
+select nomeArtista, nomeGenero from artista
+inner join genero
+on fk_idGenero = idGenero
+where nomeGenero = 'Rap';
+
+select tituloAlbum, nomeGenero from album
+inner join artista
+on idArtista = fk_idArtista
+inner join genero
+on fk_idGenero = idGenero
+order by tituloAlbum;
 
 select nomeMusica, duracao from musica
 inner join album
